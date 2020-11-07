@@ -116,6 +116,7 @@ bool CCallPython::init_python() {
 		Py_Finalize();//¹Ø±Õ½âÊÍÆ÷
 		return false;
 	}
+	return true;
 }
 
 bool CCallPython::test(std::vector<double> y0, std::vector<double> params, double t0, double T, int N,
