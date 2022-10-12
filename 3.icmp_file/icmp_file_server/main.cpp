@@ -4,8 +4,7 @@
 #include <QDataStream>
 #include <QDateTime>
 #include "pcap.h"
-#pragma comment(lib,"wpcap.lib")
-#pragma comment(lib,"packet.lib")
+
 #pragma comment(lib, "WS2_32")
 
 QDataStream *pg_ds = nullptr;
